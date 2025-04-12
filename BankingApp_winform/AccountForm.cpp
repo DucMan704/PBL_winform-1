@@ -13,6 +13,7 @@ AccountForm::AccountForm(Form ^ parentForm) {
 
 AccountForm::~AccountForm() {
     if (components) {
+
         delete components;
     }
 }
